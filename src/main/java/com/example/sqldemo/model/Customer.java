@@ -50,5 +50,13 @@ public class Customer {
 
     @Column(name = "birth_date")
     private Date birthDate;
+    
+    @Column(name = "age")
+    private int age;
 
+    @Column(name ="Address")
+    private String address;
+
+    @Column(name ="Qualification")
+    private String qualification;
 }

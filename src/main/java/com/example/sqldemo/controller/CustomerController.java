@@ -35,4 +35,9 @@ public class CustomerController {
         return customerService.getCustomer(id);
     }
 
+    @PostMapping("/updateCustomer")
+    public Customer updateCustomer(@RequestBody Customer customer) {
+        return customerService.updateCustomer(customer);
+    }
+
 }
